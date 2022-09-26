@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import FetchApi from "./components/FetchApi";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="back">
+        <nav class="navbar navbar-light bg-secondary">
+          <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1 fw-bold  navbg">
+              Castler Info
+            </span>
+          </div>
+        </nav>
+
+        <FetchApi />
+      </div>
+      <footer class="bg-secondary text-center text-lg-start">
+        <div className="text-center p-3">© 2022 Copyright:</div>
+      </footer>
     </div>
   );
 }
