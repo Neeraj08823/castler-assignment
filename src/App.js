@@ -8,7 +8,7 @@ function App() {
         <nav class="navbar navbar-light bg-secondary">
           <div class="container-fluid">
             <span class="navbar-brand mb-0 h1 fw-bold  navbg">
-              Castler Info
+              User Info
             </span>
           </div>
         </nav>
